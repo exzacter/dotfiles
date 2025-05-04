@@ -1,0 +1,11 @@
+configuration {
+	modes: [ combi ];
+	combi-modes: [ window, drun, run ];
+}
+
+entry {
+	placeholder: "Type here";
+}
+
+@theme "gruvbox-light"
+
