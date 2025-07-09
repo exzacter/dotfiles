@@ -40,6 +40,7 @@ button {
   border: 0px solid transparent;
 }
 
+#custom-updates,
 #custom-music,
 #tray,
 #backlight,
@@ -54,7 +55,7 @@ button {
 #custom-power,
 #custom-weather,
 #custom-uptime,
-#custom-docker {
+#custom-docker{
   background-color: #101010;
   padding: 0.5rem 1rem;
   margin: 5px 0;

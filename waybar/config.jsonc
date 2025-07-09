@@ -8,6 +8,7 @@
     // Choose the order of the modules
     "modules-left": [
         "hyprland/workspaces",
+        "custom/updates", 
     ],
     "modules-center": [
         "clock",
@@ -95,5 +96,11 @@
         "exec": "/home/ragnar/.config/waybar/scripts/headset.sh",
         "interval": 10,
         "return-type": "json"
-    }
+  },
+    "custom/updates": {
+        "format": " {} updates",
+        "exec": "/home/ragnar/.config/waybar/scripts/updates.sh",
+        "interval": 10,
+  }
+  
 }
