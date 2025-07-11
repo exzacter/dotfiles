@@ -1,2 +1,2 @@
 #!/bin/bash
-checkupdates | wc -l
+checkupdates 2>/dev/null | wc -l

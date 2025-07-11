@@ -1,3 +1,2 @@
-require("ragnar.lazy")
-require("ragnar.options")
-require("ragnar.keymaps")
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
